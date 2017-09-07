@@ -40,7 +40,8 @@ class ApacheHawq < Formula
                           "--disable-silent-rules",
                           "--prefix=#{prefix}"
 
-    system "make", "install"
+    system "make"
+    system "make install"
 
   end
 end
