@@ -24,7 +24,7 @@ class ApacheHawq < Formula
   depends_on "apr" => :build # gpperfmon
   depends_on "apr-util" => :build # gppermon
 
-  depends_on "gporca" => :build # --enable-orca
+  # depends_on "gporca" => :build # --enable-orca
 
   depends_on "python" => :run
 
