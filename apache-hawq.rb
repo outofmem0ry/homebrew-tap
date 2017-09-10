@@ -20,6 +20,7 @@ class ApacheHawq < Formula
   depends_on "thrift" => :build
   depends_on "boost" => :build
   depends_on "iproute2mac" => :build
+  depends_on "cmake" => :build # orca build
   depends_on "libevent" => :build # gpfdist
   depends_on "apr" => :build # gpperfmon
   depends_on "apr-util" => :build # gppermon
