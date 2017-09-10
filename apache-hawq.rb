@@ -32,8 +32,6 @@ class ApacheHawq < Formula
   depends_on "gdb" => :optional
 
   def install
-    # additional pip dependencies to run
-    system "pip", "install", "pycrypto"
 
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
