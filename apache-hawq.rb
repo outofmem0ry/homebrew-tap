@@ -1,7 +1,7 @@
 class ApacheHawq < Formula
   desc "Apache Hawq"
   homepage "http://hawq.incubator.apache.org/"
-  url "http://www.gtlib.gatech.edu/pub/apache/incubator/hawq/2.2.0.0-incubating/apache-hawq-src-2.2.0.0-incubating.tar.gz"
+  url "http://mirrors.ocf.berkeley.edu/apache/incubator/hawq/2.2.0.0-incubating/apache-hawq-src-2.2.0.0-incubating.tar.gz"
   sha256 "00343443f2aa47bb83de25def96f6c217452e9bdb5285f038e4d338d3280b92b"
   head "https://github.com/apache/incubator-hawq.git"
 
